@@ -15,8 +15,9 @@ export default function Login() {
 
   const handleStudentLogin = (e) => {
     e.preventDefault();
-    alert("Student Portal is under construction!");
+    window.location.href = "https://hackthon1-aee07kb13-siddu-kutchulas-projects.vercel.app/";
   };
+
 
   return (
     <div className="login-root">
@@ -82,6 +83,7 @@ export default function Login() {
                   placeholder="Password" 
                   className="glass-input" 
                 />
+                {/* whenever click on login this url : https://hackthon1-aee07kb13-siddu-kutchulas-projects.vercel.app/ */}
                 <button type="submit" className="login-btn">Login</button>
               </form>
             </div>
