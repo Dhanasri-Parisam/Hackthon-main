@@ -272,6 +272,42 @@ body {
   color: #ef4444 !important;
 }
 
+/* Login Content */
+.login-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+  text-align: center;
+
+  display: flex;              /* ADDED */
+  flex-direction: column;     /* ADDED */
+  align-items: center;        /* ADDED */
+}
+
+.logo-section {
+  margin-bottom: 30px;
+
+  display: flex;              /* ADDED */
+  flex-direction: column;     /* ADDED */
+  align-items: center;        /* ADDED */
+}
+
+.logo-img {
+  width: 90px; 
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid rgba(255,255,255,0.2);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  margin-bottom: 15px;
+
+  margin-left: auto;          /* ADDED */
+  margin-right: auto;         /* ADDED */
+}
+
+
+
 /* Main Content */
 .main-content {
   flex: 1;

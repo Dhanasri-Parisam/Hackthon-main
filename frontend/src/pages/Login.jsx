@@ -32,19 +32,19 @@ export default function Login() {
       </div>
 
       {/* Main Content */}
-      <div className="login-content">
-        {/* Logo Section */}
-        <div className="logo-section">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJUpXOs0chE8i7X7bhjr3MnK8PWHV1DHQlg&s"
-            alt="Aditya University Logo"
-            className="logo-img"
-          />
-          <h1>Aditya University</h1>
-          <p>Student & Employee Login Portal</p>
-        </div>
+        <div className="login-content">
+          {/* Logo Section */}
+          <div className="logo-section centered-logo">
+            <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJUpXOs0chE8i7X7bhjr3MnK8PWHV1DHQlg&s"
+          alt="Aditya University Logo"
+          className="logo-img"
+            />
+            <h1>Aditya University</h1>
+            <p>Student & Employee Login Portal</p>
+          </div>
 
-        {/* Toggle Switch */}
+          {/* Toggle Switch */}
         <div className="toggle-wrapper">
           <div className="toggle-box">
             <button
