@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; background:#0b1220; color:#fff; }
+.form-container { max-width:900px; margin:28px auto; background:#fff; color:#111; padding:24px; border-radius:10px; }
+.form-row { display:flex; gap:12px; }
+.form-half { flex:1; }
+.input { width:100%; padding:10px; border-radius:6px; border:1px solid #ddd; box-sizing:border-box; }

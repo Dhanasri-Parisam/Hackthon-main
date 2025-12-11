@@ -1,0 +1,13 @@
+// POST /api/auth/register
+async function register({ name, email, password }) {
+  const res = await fetch('/api/auth/register', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name, email, password })
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || 'Register failed');
+  // save token locally
+  localStorage.setItem('token', data.token);
+  return data.user;
+}
